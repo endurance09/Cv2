@@ -1,0 +1,120 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>home</title>
+        <link rel="stylesheet" href="style.css">
+
+        <style>
+            .navbar{
+                overflow: hidden;
+                background-color: #333;
+                position: fixed;
+                top: 0%;
+                width: 100%;
+            }
+
+            .navbar a {
+                float: right;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 16px 20px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+
+            .navbar a:hover{
+                background-color: #ddd;
+                color: black;
+            }
+
+            #navbar a.active{
+                background-color: rbg(241,181,181);
+                color: white;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="#contact">Contact</a>
+            <a href="#cv">CV</a>
+            <a href="#skills">Skills</a>
+            <a href="#about_me">About Me</a>
+            <a href="#address">Home</a>
+        </div>
+
+        <div id="address">
+            <h1>Endurance andrew</h1>
+            <address>opposite bethel baptist high school marmama damishi,
+                 kaduna.<br> email:endysunomo@gmail.com</address>
+        </div>
+
+        <div id="About_me">
+            <div class="about_left">
+                <img src="endurance.jpg" height="100%"; width="90%" >
+            </div>
+            <div class="about_right">
+                <h2>ABOUT ME</h2>
+                <p>my name is endurance andrew im a indigene of chukun local government area of kaduna state.<br> i had my f.l.s.c in government primary school romi and secondary school in mission academy international school ungwan sunday. <br> where i proceed to study mass communication in abdul gusau polytechnic zamfara state.<br> i have worked in couble of organisation to include infinity security company as a security supervisor,and telesuprecon nigeria limited as a fiber maintenance supervisor.<br>im currrently a business enterprenuer and a web developer.</p>
+            </div>
+
+        </div>
+        <!-- skills section -->
+        <div id="skills">
+            <h2>  IT SKILLS</h2>
+            <p>this section is a brief about my IT skills</p>
+            <d1>
+                <dt><b> software development skills</b></dt>
+                <dd> - html, css, javascript, php, & mysql</dd>
+                <dd> - web development frame work (w3.css, bootscrap)</dd>
+                <dd> - content management system (joomla, wix,wordpress)</dd>
+                <dt><b>office application and graghic design</b></dt>
+                <dd> - microsoft office word</dd>
+                <dd> - presentation software(powerpoint)</dd>
+                <dd> - spresheeet application (excel and access)</dd>
+                <dd> - graphic design application (photoshop,coreldraw, paint)</dd>
+            </d1>
+
+        </div>
+        <!--cv section-->
+        <div id="cv">
+            <h2>WORKING EXPERIENCE</h2>
+            <p>this section is a brief about my working experience.</p>
+            <ol>
+                <li>telesuprecon nigeria limited - f/m supervisor</li>
+                <li>infinity security company - supervisor</li>
+                </ol>
+                <h2>QUALIFICATION OBTAIN</h2>
+                <p>a brief about the qualification i have archieved.</p>
+                <ol>
+                    <li>national diploma in mass commucation - abdul gusau polytechnic </li>
+                    <li>neco - mission academy international school </li>
+                    <li>f.l.s.c - government primary school u/romi </li>
+                </ol>
+                <h2>HOBBIES</h2>
+                <p>here are some of my hobbies</p>
+                <ul>
+                    <li>traveling</li>
+                    <li>watching boxing</li>
+                    <li>watching wrestling</li>
+                    <li>playing football</li>
+                </ul>
+        </div>
+
+        <!-- contact section -->
+        <div id="contact">
+        <h2>CONTACT ME HERE</h2>
+        <form action="">
+            <label for="firstname">first name:</label><br>
+            <input type="text"><br><br>
+            <label for="lastname">last name:</label><br>
+            <input type="text"><br><br>
+            <label for="email">email:</label><br>
+            <input type="email"><br><br>
+            <label for="subject">subject:</label><br>
+            <input type="textarea"><br><br>
+            <input type="submit" value="message me">
+        </form>
+        </div>
+    </body>
+</html>
